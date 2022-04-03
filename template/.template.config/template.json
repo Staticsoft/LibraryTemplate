@@ -2,8 +2,8 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Staticsoft",
   "classifications": [ "Library" ], 
-  "name": "Staticsoft Library",
-  "identity": "Staticsoft.Library.CSharp",
+  "name": "Staticsoft Library Template",
+  "identity": "Staticsoft.Template.Library",
   "shortName": "staticsoft-lib",
   "tags": {
     "language": "C#",

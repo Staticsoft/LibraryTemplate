@@ -7,8 +7,8 @@
   "shortName": "staticsoft-lib",
   "tags": {
     "language": "C#",
-    "type":"project"
+    "type": "project"
   },
   "sourceName": "{LibraryName}",
-  "preferNameDirectory":true
+  "preferNameDirectory": true
 }

@@ -4,7 +4,7 @@ on:
     branches:
     - master
 jobs:
-  RunTests:
+  VerifyPackage:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/setup-dotnet@v1
@@ -15,9 +15,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Create packages
-      run: dotnet pack Packages.sln -o Packages -c Release -p:PackageVersion=0.0.0
+      run: dotnet pack Template.csproj -o Packages -c Release -p:PackageVersion=0.0.0
     - name: Install template
-      run: dotnet new --install ./Packages/Staticsoft.Library.CSharp.0.0.0.nupkg
+      run: dotnet new --install ./Packages/Staticsoft.Template.Library.0.0.0.nupkg
     - name: Create new solution
       run: dotnet new staticsoft-lib -n Solution
     - name: Build solution

@@ -6,6 +6,8 @@
     <PackageId>Staticsoft.Template.Library</PackageId>
     <Title>Staticsoft library template</Title>
     <TargetFrameworks>net60;netcoreapp3.1</TargetFrameworks>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Staticsoft/LibraryTemplate</RepositoryUrl>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>

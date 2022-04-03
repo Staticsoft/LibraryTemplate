@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Staticsoft",
+  "classifications": [ "Library" ], 
+  "name": "Staticsoft Library Template",
+  "identity": "Staticsoft.Template.Library",
+  "shortName": "staticsoft-lib",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "{LibraryName}",
+  "preferNameDirectory": true
+}

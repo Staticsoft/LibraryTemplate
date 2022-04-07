@@ -9,6 +9,10 @@
   <ItemGroup>
     <ProjectReference Include="..\{LibraryName}.Abstractions\{LibraryName}.Abstractions.csproj" />
   </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
+    <Compile Include="..\Compatibility\IsExternalInit.cs" Link="IsExternalInit.cs" />
+  </ItemGroup>
 
   <PropertyGroup>
     <PackageId>Staticsoft.$(MSBuildProjectName)</PackageId>

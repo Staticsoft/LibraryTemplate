@@ -25,9 +25,5 @@
     <ProjectReference Include="..\{LibraryName}.Abstractions\{LibraryName}.Abstractions.csproj" />
     <ProjectReference Include="..\{LibraryName}.Memory\{LibraryName}.Memory.csproj" />
   </ItemGroup>
-  
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
-    <Compile Include="..\Compatibility\IsExternalInit.cs" Link="IsExternalInit.cs" />
-  </ItemGroup>
 
 </Project>

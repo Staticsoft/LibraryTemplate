@@ -11,7 +11,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Staticsoft.Extensions.DependencyInjection" Version="1.0.0-1" />
+    <PackageReference Include="Staticsoft.Extensions.DependencyInjection" Version="1.0.0-3" />
   </ItemGroup>
 
   <PropertyGroup>

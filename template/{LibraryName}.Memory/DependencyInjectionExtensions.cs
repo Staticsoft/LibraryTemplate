@@ -1,9 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Staticsoft.{LibraryName}.Memory
+namespace Staticsoft.{LibraryName}.Memory;
+
+public static class DependencyInjectionExtensions
 {
-    public static class DependencyInjectionExtensions
-    {
-        
-    }
+
 }

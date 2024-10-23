@@ -1,16 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>net60</TargetFrameworks>
-    <LangVersion>latest</LangVersion>
-    <RootNamespace>Staticsoft.$(MSBuildProjectName)</RootNamespace>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>Staticsoft.$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
 
-  <PropertyGroup>
-    <PackageId>Staticsoft.$(MSBuildProjectName)</PackageId>
-    <VersionPrefix>1.0.0</VersionPrefix>
-    <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/Staticsoft/{LibraryName}</RepositoryUrl>
-  </PropertyGroup>
+    <PropertyGroup>
+        <PackageId>Staticsoft.$(MSBuildProjectName)</PackageId>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/Staticsoft/{LibraryName}</RepositoryUrl>
+    </PropertyGroup>
 
 </Project>
